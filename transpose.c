@@ -1,8 +1,8 @@
 #include <stdio.h> //Q11
 int main()
 {
-    int a[10][10], transpose[10][10], r, c, i, j;
-    printf("Enter rows and columns of matrix: ");
+    int a[10][10], t[10][10], r, c, i, j;
+    printf("Enter no. rows and columns of matrix: ");
     scanf("%d %d", &r, &c);
     // Storing elements of the matrix
     printf("Enter elements of matrix:\n");
@@ -27,15 +27,15 @@ int main()
     for(i=0; i<r; ++i)
         for(j=0; j<c; ++j)
         {
-            transpose[j][i] = a[i][j];
+            t[j][i] = a[i][j];
         }
     // Displaying the transpose of matrix a
-    printf("\nTranspose of Matrix:\n");
+    printf("Transpose of Matrix:\n");
     for(i=0; i<c; ++i)
     {
         for(j=0; j<r; ++j)
         {
-            printf("%d  ",transpose[i][j]);
+            printf("%d  ",t[i][j]);
         }
         printf("\n");
     }

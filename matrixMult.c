@@ -2,9 +2,9 @@
 int main()
 {
     int a[10][10], b[10][10], result[10][10], r1, c1, r2, c2, i, j, k;
-    printf("Enter rows and column for first matrix: ");
+    printf("Enter no. of rows & column for 1st matrix:\n");
     scanf("%d %d", &r1, &c1);
-    printf("Enter rows and column for second matrix: ");
+    printf("Enter no. of rows & column for 2nd matrix:\n");
     scanf("%d %d",&r2, &c2);
     // Column of first matrix should be equal to rows of second matrix and
     if(c1 == r2)

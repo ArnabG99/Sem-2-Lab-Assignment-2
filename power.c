@@ -3,10 +3,10 @@ int myPower(int a,int b);
 int main()
 {
     int a,b,value;
-    printf("enter the value of a and b: \n");
+    printf("Enter the value of a and b: \n");
     scanf("%d%d",&a,&b);
     value=myPower(a,b);
-    printf("the value of %d raised to %d is %d",a,b,value);
+    printf("Value of %d raised to %d is %d",a,b,value);
     return 0;
 }
 int myPower(int a,int b)
